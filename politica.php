@@ -7,7 +7,6 @@
 </main>
 
 
-
 <?php 
     include 'footer/index.php';
 ?>
