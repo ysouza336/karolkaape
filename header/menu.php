@@ -1,6 +1,6 @@
 <header class='d-flex cabecalho container-fluid'>
   <div class="row">
-      <nav class="col-12">
+      <nav class="col-12 menu-superior">
           <!-- icones para menu mobile -->
           <i class="fas fa-bars abrir "></i>
           <i class="fas d-none fechar text-white fa-angle-left position-relative"></i>
