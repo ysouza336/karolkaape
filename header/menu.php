@@ -1,15 +1,14 @@
 <header class='d-flex cabecalho container-fluid'>
   <div class="row">
-      <nav>
+      <nav class="col-12">
           <!-- icones para menu mobile -->
           <i class="fas fa-bars abrir "></i>
           <i class="fas d-none fechar text-white fa-angle-left position-relative"></i>
           <img class="img-fluid" src="./img/LOGO.png" alt="">  
-          <i class="fas fa-search"></i>
           <ul class="menu-principal">
             <li class="menu-principal-item"><a class="btn btn-primary" data-bs-toggle="collapse" href="#underprotection" role="button" aria-expanded="false" aria-controls="collapseExample">Under Protection</a>
                 <ul class="sub-menu collapse" id="underprotection">
-                <!--i class="fa-solid fas fa-angle-right"-->
+                <!--Feitos menus e subs menus em collapse-->
                   <li class="sub-menu-item"><a href="#">Quem somos e nosso propósito</a></li></i>
                   <li class="sub-menu-item"><a href="#">Por que escolher a Under Protection</a></li>
                   <li class="sub-menu-item"><a href="#">Nossa História</a></li>
@@ -49,8 +48,8 @@
                   <li class="sub-menu-item"><a href="#">Parceiros</a></li>
                 </ul>
             </li>
-            <li class="menu-principal-item"><a href="#">Faça Parte da Up</a></li>
-            <li class="menu-principal-item"><a href="#">Noticias</a></li>
+            <li class="menu-principal-item"><a class="btn btn-primary" href="#">Faça Parte da Up</a></li>
+            <li class="menu-principal-item"><a class="btn btn-primary" href="#">Noticias</a></li>
             <li class="menu-principal-item"><a class="btn btn-primary" data-bs-toggle="collapse" href="#contatos" role="button" aria-expanded="false" aria-controls="collapseExample" href="#">Contatos</a>
                 <ul class="sub-menu collapse" id="contatos">
                   <li class="sub-menu-item"><a href="#">Fale com a UP</a></li>
@@ -58,6 +57,8 @@
                 </ul>
             </li>
           </ul>
+          <!-- Icone para fazer a pesquisa -->
+          <i class="fas fa-search"></i>
       </nav>
   </div>
 </header>
