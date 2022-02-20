@@ -4,7 +4,7 @@ $().ready(function(){
             $(this).addClass('d-none');
             //adiciono a classe block no X
             $('.fechar').addClass('d-block');
-            $('.menu').addClass('open');
+            $('.menu-principal').addClass('open');
             $('body').addClass('overflow-hidden');
         });
         $('.fechar').click(function(){

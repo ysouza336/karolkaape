@@ -1,8 +1,8 @@
-<header class='d-flex cabecalho container-fluid'>
+<header class='cabecalho container-fluid'>
   <div class="row">
-      <nav class="col-12 menu-superior">
+      <nav class="col-12 d-flex align-items-center justify-content-between">
           <!-- icones para menu mobile -->
-          <i class="fas fa-bars abrir "></i>
+          <i class="fas fa-bars abrir text-white"></i>
           <i class="fas d-none fechar text-white fa-angle-left position-relative"></i>
           <img class="img-fluid" src="./img/LOGO.png" alt="">  
           <ul class="menu-principal">
@@ -58,7 +58,7 @@
             </li>
           </ul>
           <!-- Icone para fazer a pesquisa -->
-          <i class="fas fa-search"></i>
+          <i class="fas fa-search text-white"></i>
       </nav>
   </div>
 </header>

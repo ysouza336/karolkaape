@@ -9,3 +9,51 @@ header div  nav .menu-principal .menu-principal-item{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+//verificar o erro depois
+$breakpoint-md:768px;
+@media (max-width: $breakpoint-md){
+    .cabecalho{
+        background-color: #262647;
+        nav{
+            i{
+                font-size: 26px;
+            }
+            img{
+                width: 190px;
+            }
+            .open{
+                right: 0;
+                transition:all .5s;
+                overflow: hidden;
+            }
+            .fechar{
+                z-index:112;
+            }
+        }
+    }
+    .menu-principal{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #000000;
+        right: -114%;
+        transition:all .5s;
+        z-index: 100;
+        padding-top: 149px;
+        overflow: hidden;
+        top: 0;
+        li{
+            list-style: none;
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 16px;
+            a{
+                color: #fff;
+    
+            }
+        }
+   
+    }
+}
+
+
