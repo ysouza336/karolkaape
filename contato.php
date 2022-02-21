@@ -8,8 +8,8 @@
             <div class="col-12 text-contato d-flex justify-content-center">
             </div>
             <div class="col-12 formulario-contato d-flex flex-column align-items-center ">
-                <h1 class="text-white">Contato</h1>
-                <h3 class="text-white">Fale Com a Up</h3>
+                <h1 class="text-white text-center">Contato</h1>
+                <h3 class="text-white text-center">Fale Com a Up</h3>
                 <p class="text-white text-center">Para conhecer nossas soluções, tirar dúvidas, solicitar orçamentos e melhorar a segurança da sua em</p>
                 <form>
                     <div class="mb-2">

@@ -3,6 +3,7 @@
     include 'header/menu.php';
 ?>
 <main>
+    <!--
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -17,6 +18,8 @@
             </div>
         </div>
     </div>
+    -->
+    <img class="img-fluid" src="../img/noticias-banner.png" alt="">
 
 </main>
 
