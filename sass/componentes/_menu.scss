@@ -1,9 +1,40 @@
 header div  nav .menu-principal{
     list-style: none;
+    background-color: #262647;
     padding: 0;
-    .sub-menu li{
-        list-style: none;
+    .menu-principal-item{ 
+        i{
+            margin-left: 12px;
+            color:#8a4d93
+        }
+        a{
+            text-decoration: none;
+            color: white !important;
+            margin-left: 8px;
+        }
+      
     }
+    .sub-menu{
+        background-color: #7a7ca7;
+        li{
+            list-style: none;
+            margin-bottom: 5px;
+            a{
+                text-decoration: none !important;
+                color: white;
+                margin: 0;
+            }
+        }
+        li::after{
+            content: '';
+            width: 200px;
+            height: 2px;
+            background: #efefef;
+            display: block;
+            margin-right: 13px;
+        }
+    }
+   
 } 
 header div  nav .menu-principal .menu-principal-item{
     margin-top: 5px;
@@ -49,7 +80,6 @@ $breakpoint-md:768px;
             margin-bottom: 16px;
             a{
                 color: #fff;
-    
             }
         }
    
