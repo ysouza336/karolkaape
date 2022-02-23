@@ -14,7 +14,7 @@
                     <img class="img-fluid" src="img/foto-noticias.png" alt="">
                 </div>
                 <div class="texto-item">
-                    <p>Na <strong>UP</strong>,somos movidos pelo desejo de inovar e de trazer mais proteção para as empresas através de soluções completas e equipes preparadas para lidar com os desafios.</p>
+                    <p><span> Na <strong>UP</strong>,somos movidos pelo desejo de inovar e de trazer mais proteção para as empresas através de soluções completas e equipes preparadas para lidar com os desafios.</span></p>
                 </div>
             </div>
             <div class="col-12 texto-facaparte text-white">

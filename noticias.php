@@ -19,7 +19,14 @@
         </div>
     </div>
     -->
-    <img class="img-fluid" src="../img/noticias-banner.png" alt="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+                <img class="img-fluid" src="./img/noticias-banner.png" alt="">
+            </div>
+        </div>
+    </div>
+   
 
 </main>
 

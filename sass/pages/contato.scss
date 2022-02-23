@@ -1,8 +1,9 @@
 main .cabecalho-contato{
-   
+    background: url(../img/contato.png) no-repeat;
+    background-size: cover;
     .formulario-contato{
-        background: url(../img/contato.png) no-repeat;
-        background-size: cover;
+        
+        align-items: center;
         h1{
             font-size: 50px;
             text-transform: uppercase;
@@ -12,24 +13,21 @@ main .cabecalho-contato{
     }
     .formulario-contato form div input{
         border-radius: 30px;
-        color: #efefef;
+        color: #efefef;  
     }
     .curitiba{
         text-align: center;
-        background-color: #262647;
+        
         p{
             font-size:14px;
         }
     }
     .sao-paulo{
+        margin-left: auto;
         text-align: center;
-        background-color: #262647;
         p{
             font-size:14px;
         }
-    }
-    .contato{
-        background-color: #262647;
     }
     .contato::after{
         content: '';
@@ -37,8 +35,7 @@ main .cabecalho-contato{
         height: 2px;
         background: #efefef;
         display: block;
-        margin: 0 auto;
-        
+        margin: 0 auto;  
     }
     .contato ul{
         list-style: none;
@@ -54,11 +51,7 @@ main .cabecalho-contato{
             }
         }
     }
-    .telefones{
-        background-color: #262647; 
-    }
     .fale-conosco{
-        background-color: #262647; 
         text-align: center;
         h1{
             margin-top: 45px;
@@ -72,6 +65,36 @@ main .cabecalho-contato{
 
             }
         }
-    }
-    
+    }   
+}
+@media(min-width:768px){
+    .cabecalho-contato{
+        .formulario-contato{
+            background-color: #7c7da3;
+            max-width: 80%;
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50px;
+            form{
+                width: 80%;
+                div{
+                    input{
+                        border-radius: 10px !important;
+                    }
+                }
+            }
+            h3{
+                margin-top:15px;
+            }
+        }
+        /*.telefones::before{
+            width: 50%;
+            float: left;
+            height: 200px;
+            color: #fff;
+            border-right: 2px solid;
+        }  */
+    } 
 }
