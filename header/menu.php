@@ -58,7 +58,7 @@
             </li>
           </ul>
           <!-- Icone para fazer a pesquisa -->
-          <i class="fas fa-search text-white"></i>
+          <i class="fas fa-search text-white pesquisar"></i>
       </nav>
   </div>
 </header>

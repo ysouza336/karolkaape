@@ -27,3 +27,32 @@ footer .rodape{
         }
     }
 }
+@media(min-width:768px){
+    footer div .redes-sociais{
+        margin: 0!important;
+        li{
+            a{
+                font-size: 25px;
+            }
+        } 
+    } 
+   .rodape{
+        img{
+            margin-top: 1px !important;
+        }
+   }
+}
+@media(min-width:1440px){
+    .redes-sociais{
+        li{
+            a{
+                font-size: 35px !important;
+            }
+        }
+    }
+    .rodape{
+        img{
+            margin-top: 4px !important;
+        }
+   }
+}

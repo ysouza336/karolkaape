@@ -5,10 +5,20 @@
 <main>
     <div class="container-fluid ">
         <div class="row cabecalho-contato">
-            <div class="col-12 d-flex justify-content-center">
+            <!-- teste da linha com as redes sociais vertical-->
+            <div class="col-12 linha-redes d-none text-white">
+                <ul class="">
+                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <!-- aqui fecha-->
+            <div class="col-12 d-flex justify-content-center text-contato">
                 <h1 class="text-white text-center mt-md-2">Contato</h1>
             </div>
-            <div class=" formulario-contato">
+            <div class=" formulario-contato col-lg-8">
                 <h3 class="text-white text-center">Fale Com a Up</h3>
                 <p class="text-white text-center">Para conhecer nossas soluções, tirar dúvidas, solicitar orçamentos e melhorar a segurança da sua em</p>
                 <form class="row">
@@ -74,7 +84,7 @@
                     <div class="sao-paulo text-white col-md-6">
                         <h5>São Paulo</h5>
                         <p>+55 (11) 3522-8008</p>
-                        <div class="">
+                        <div class="porto-alegre">
                             <h5>Porto Alegre</h5>
                             <p>+55 (51) 4063-8814</p>
                         </div>

@@ -2,7 +2,9 @@ main .cabecalho-contato{
     background: url(../img/contato.png) no-repeat;
     background-size: cover;
     .formulario-contato{
-        
+        h3{
+            margin-top: 100px;
+        }
         align-items: center;
         h1{
             font-size: 50px;
@@ -10,6 +12,11 @@ main .cabecalho-contato{
             margin-bottom: 100px;
             margin-top: 20px;
         }
+    }
+    .text-contato{
+        margin-top: 80px;
+        font-size: 40px;
+        text-transform: uppercase;
     }
     .formulario-contato form div input{
         border-radius: 30px;
@@ -69,6 +76,24 @@ main .cabecalho-contato{
 }
 @media(min-width:768px){
     .cabecalho-contato{
+       /* .linha-redes::before{
+            content: "";
+            width: 50%;
+            float: left;
+            height: 200px;
+            color: #fff;
+            border-right: 2px solid;
+        }
+        .linha-redes{
+            display:flex;
+            padding:0;
+            align-items:flex-end;
+            flex-direction:column; 
+        }
+        teste da linha vertical*/
+        .contato::after{
+            display: none !important;
+        }
         .formulario-contato{
             background-color: #7c7da3;
             max-width: 80%;
@@ -77,6 +102,7 @@ main .cabecalho-contato{
             margin-left: auto;
             margin-right: auto;
             border-radius: 50px;
+            margin-top: 110px;
             form{
                 width: 80%;
                 div{
@@ -86,15 +112,76 @@ main .cabecalho-contato{
                 }
             }
             h3{
-                margin-top:15px;
+                margin-top:15px !important;
             }
         }
         /*.telefones::before{
+            content: "";
             width: 50%;
             float: left;
             height: 200px;
             color: #fff;
             border-right: 2px solid;
         }  */
+        .fale-conosco{
+            .link-contato{
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .contato{
+            border-right: 3px solid;
+        }
     } 
+}
+@media(min-width:992px){
+    .cabecalho-contato{
+        .telefones{
+            .curitiba,.joinville{
+                h5{
+                    font-size: 24px !important;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+            .sao-paulo,.porto-alegre{
+                h5{
+                    font-size: 24px !important;
+                }
+                p{
+                    font-size: 20px;
+                }  
+            }
+            
+        }
+    }
+}
+@media(min-width:1200px){
+    .cabecalho-contato{
+        .text-contato{
+            margin-top: 20%;
+            h1{
+                font-size: 100px;
+            }
+        }
+        .formulario-contato{
+            margin-top: 30%;  
+        }
+    }
+}
+@media(min-width:1440px){
+    .cabecalho-contato{
+        .formulario-contato{
+            margin-top: 30%
+        }
+        .text-contato{
+            margin-top: 20%;
+            h1{
+                font-size: 110px;
+                text-transform: uppercase;
+            }
+        }
+    }
 }
