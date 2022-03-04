@@ -5,7 +5,7 @@
 <main>
     <div class="container-fluid">
         <div class="row politica-privacidade">
-            <div class="col-12">
+            <div class="col-12 d-flex justify-content-center text-politica">
                 <h1 class="text-white">Politica de privacidade</h1>
             </div>
             <div class="col-12 d-none">
@@ -18,25 +18,23 @@
                 <h1 class="text-uppercase">Politica de privacidade</h1>
             </div>
             <div class="col-12 conteudo-politica">
-                <li>
-                    <ol>
-                        <li class="menu-principal-item"><a class="btn btn-primary" data-bs-toggle="collapse" href="#objetivo" role="button" aria-expanded="false" aria-controls="collapseExample">Objetivo</a>
-                            <ul class="collapse" id="objetivo"><li>teste</li></ul>
-                        </li>
-                        <li class="menu-principal-item"><a class="btn btn-primary" data-bs-toggle="collapse" href="#campo" role="button" aria-expanded="false" aria-controls="collapseExample">Campo de Aplicação</a>
-                            <ul class="collapse" id="campo"><li>teste</li></ul>
-                        </li>
-                        <li class="menu-principal-item"><a class="btn btn-primary" data-bs-toggle="collapse" href="#generalidades" role="button" aria-expanded="false" aria-controls="collapseExample">Generalidades</a>
-                            <ul class="collapse" id="generalidades"><li>teste</li></ul>
-                        </li>
-                        <li class="menu-principal-item"><a class="btn btn-primary" data-bs-toggle="collapse" href="#responsabilidade" role="button" aria-expanded="false" aria-controls="collapseExample">Responsabilidade</a>
-                            <ul class="collapse" id="responsabilidade"><li>teste</li></ul>
-                        </li>
-                        <li class="menu-principal-item"><a class="btn btn-primary" data-bs-toggle="collapse" href="#procedimento" role="button" aria-expanded="false" aria-controls="collapseExample">Procedimento</a>
-                            <ul class="collapse" id="procedimento"><li>teste</li></ul>
-                        </li>
-                    </ol>
-                </li>
+                <ol>
+                    <li class="politica-item mb-2"><a class="" data-bs-toggle="collapse" href="#objetivo" role="button" aria-expanded="false" aria-controls="collapseExample">Objetivo</a>
+                        <ul class="collapse mb-2" id="objetivo"><li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li></ul>
+                    </li>
+                    <li class="politica-item mb-2"><a class="" data-bs-toggle="collapse" href="#campo" role="button" aria-expanded="false" aria-controls="collapseExample">Campo de Aplicação</a>
+                        <ul class="collapse mb-2" id="campo"><li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li></ul>
+                    </li>
+                    <li class="politica-item mb-2"><a class="" data-bs-toggle="collapse" href="#generalidades" role="button" aria-expanded="false" aria-controls="collapseExample">Generalidades</a>
+                        <ul class="collapse mb-2" id="generalidades"><li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li></ul>
+                    </li>
+                    <li class="politica-item mb-2"><a class="" data-bs-toggle="collapse" href="#responsabilidade" role="button" aria-expanded="false" aria-controls="collapseExample">Responsabilidade</a>
+                        <ul class="collapse mb-2" id="responsabilidade"><li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li></ul>
+                    </li>
+                    <li class="politica-item mb-2"><a class="" data-bs-toggle="collapse" href="#procedimento" role="button" aria-expanded="false" aria-controls="collapseExample">Procedimento</a>
+                        <ul class="collapse mb-2" id="procedimento"><li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li></ul>
+                    </li>
+                </ol>
             </div>
         </div>
     </div>
