@@ -56,9 +56,8 @@
                   <li class="sub-menu-item"><a href="#">Fale com a DPO</a></li>
                 </ul>
             </li>
-            <i class="fas fa-search text-white"></i>
           </ul>
-          
+          <i class="fas fa-search text-white"></i>
           <!-- Icone para fazer a pesquisa -->
           <div class="d-none">
             <input type="search" name="busca" class="busca fas fa-search text-white" placeholder="Buscar...">
