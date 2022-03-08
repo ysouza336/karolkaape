@@ -57,8 +57,9 @@
                 </ul>
             </li>
           </ul>
+          <i class="fas fa-search text-white"></i>
           <!-- Icone para fazer a pesquisa -->
-          <div>
+          <div class="d-none">
             <input type="search" name="busca" class="busca fas fa-search text-white" placeholder="Buscar...">
           </div>
       </nav>
