@@ -57,8 +57,148 @@
             color: white;
         }
     }
+    .text-destaque{
+        background-color: #535376;
+        border-radius: 30px;
+    }
 }
 .facaparte h1{
     color:white;
     text-align: center;
+}
+@media(min-width:768px){
+    .facaparte{
+        .banner-circulares{
+            h6{
+                font-size: 20px;
+                width: 90%;
+                margin-left: 50px;
+                margin-top: 56px;
+            }
+            .imagem-centralizada{
+                img{
+                    margin-left: 50px;
+                    margin-top: 30px;
+                    width: 340px;
+                }
+            }
+        }
+        .texto-item{
+            position: relative;
+            bottom: 43%;
+            left: 41%;
+            border-radius: 170px;
+            width: 340px;
+            height: 340px;
+            background-color: rgba(100,100,123,0.8);   
+            p{
+                font-size: 21px;
+                width: 240px;   
+                margin-left: 59px;
+                margin-top: 14px;
+            }
+        }
+    }
+    .texto-facaparte{
+        .confira{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media(min-width:992px){
+    .facaparte{
+        .texto-item{
+            bottom: 46%;
+            left: 41%;
+            border-radius: 210px;
+            width: 440px;
+            height: 440px;
+            p{
+                font-size: 28px;
+                width: 350px;
+                margin-left: 59px;
+                margin-top: 14px;
+            }
+        }
+        .banner-circulares{
+            .imagem-centralizada{
+                img{
+                    margin-left: 50px;
+                    margin-top: 30px;
+                    width: 440px;
+                }
+            }
+        } 
+    }
+    .texto-facaparte{
+        p{
+            font-size: 25px; 
+        }
+    }
+}
+@media(min-width:1200px){
+    .facaparte{
+        .banner-circulares{
+            .imagem-centralizada{
+                img{
+                    margin-left: 160px;
+                    margin-top: 30px;
+                    width: 440px;
+                }
+            }
+        }
+        .texto-item{
+            left: 44%;
+        }
+    }
+    .texto-facaparte{
+        p{
+            width: 930px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media(min-width:1440px){
+    .facaparte{
+        h1{
+            font-size: 90px;
+        }
+        .banner-circulares{
+            h6{
+                margin-top: 106px;
+                font-size: 40px;
+            }
+            .imagem-centralizada{
+                img{
+                    margin-left: 160px;
+                    margin-top: 30px;
+                    width: 600px;
+                }
+            }
+        }
+        .texto-item{
+            bottom: 43%;
+            left: 42%;
+            border-radius: 300px;
+            width: 600px;
+            height: 600px;
+            p{
+                font-size: 37px;
+                width: 410px;
+                margin-left: 114px;
+                margin-top: 14px;
+            }
+        }
+    }
+    .texto-facaparte{
+        p{
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 30px;
+        }
+    }
 }
