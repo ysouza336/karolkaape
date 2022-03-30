@@ -8,41 +8,40 @@
         margin-bottom: 16%;
     }
 }
-.facaparte{
+.sobreposition{
+        background: url(../img/facaparte-meio.png) no-repeat;
+        background-size: contain;
     .texto-item{
         position: relative;
-        bottom: 44%;
-        left: 30%;
-        border-radius: 100px;
-        width: 210px;
-        height: 210px;
-        background-color: rgba(100, 100, 123,0.8);
+        border-radius: 130px;
+        height: 180px;
+        background-color: rgba(100, 100, 123,0.6);
         display: flex;
         align-items: center;
+        margin-bottom: 18px;
+        right: 20px;
         p{
-            font-size: 14px;
-            width: 150px;
-            margin-left: 39px;
+            font-size: 11px;
+            width: 120px;
+            margin-left: 32px;
             margin-top: 14px;
             span{
                 color: #fff;
             }
         }
     }
-    .imagem-centralizada{
-        img{
-            width: 200px;
-        }
-    }
     .banner-circulares{
-        background-image: url(../img/facaparte-meio.png);
-        background-size: contain;
-        background-repeat: no-repeat;
         background-color: #efefef;
         h6{
             color: #212145;
             margin-top: 12px;
             text-align: center;
+        }
+        img{
+            margin-left: 25px;
+            width: 190px;
+            height: 180px;
+            margin-top: 4px;
         }
     }
 }
@@ -69,6 +68,9 @@
 @media(min-width:768px){
     .facaparte{
         .banner-circulares{
+            .faca-redessociais{
+                margin-bottom: 40px;
+            }
             h6{
                 font-size: 20px;
                 width: 90%;
