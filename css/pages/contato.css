@@ -1,0 +1,171 @@
+main .cabecalho-contato {
+  background: url(../img/contato.png) no-repeat;
+  background-size: cover;
+}
+main .cabecalho-contato .formulario-contato {
+  align-items: center;
+}
+main .cabecalho-contato .formulario-contato h3 {
+  margin-top: 100px;
+}
+main .cabecalho-contato .formulario-contato h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+main .cabecalho-contato .text-contato {
+  margin-top: 80px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+main .cabecalho-contato .formulario-contato form div input {
+  border-radius: 30px;
+  color: #efefef;
+}
+main .cabecalho-contato .curitiba {
+  text-align: center;
+}
+main .cabecalho-contato .curitiba p {
+  font-size: 14px;
+}
+main .cabecalho-contato .sao-paulo {
+  margin-left: auto;
+  text-align: center;
+}
+main .cabecalho-contato .sao-paulo p {
+  font-size: 14px;
+}
+main .cabecalho-contato .contato::after {
+  content: "";
+  width: 200px;
+  height: 2px;
+  background: #efefef;
+  display: block;
+  margin: 0 auto;
+}
+main .cabecalho-contato .contato ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+main .cabecalho-contato .contato ul li {
+  font-size: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+main .cabecalho-contato .contato ul li a {
+  color: white !important;
+}
+main .cabecalho-contato .fale-conosco {
+  text-align: center;
+}
+main .cabecalho-contato .fale-conosco h1 {
+  margin-top: 45px;
+}
+main .cabecalho-contato .fale-conosco .link-contato {
+  background-color: #7c7da3;
+  border-radius: 30px;
+}
+main .cabecalho-contato .fale-conosco .link-contato a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .cabecalho-contato {
+    /* .linha-redes::before{
+         content: "";
+         width: 50%;
+         float: left;
+         height: 200px;
+         color: #fff;
+         border-right: 2px solid;
+     }
+     .linha-redes{
+         display:flex;
+         padding:0;
+         align-items:flex-end;
+         flex-direction:column; 
+     }
+     teste da linha vertical*/
+    /*.telefones::before{
+        content: "";
+        width: 50%;
+        float: left;
+        height: 200px;
+        color: #fff;
+        border-right: 2px solid;
+    }  */
+  }
+  .cabecalho-contato .contato::after {
+    display: none !important;
+  }
+  .cabecalho-contato .formulario-contato {
+    background-color: #7c7da3;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-top: 110px;
+  }
+  .cabecalho-contato .formulario-contato form {
+    width: 80%;
+  }
+  .cabecalho-contato .formulario-contato form div input {
+    border-radius: 10px !important;
+  }
+  .cabecalho-contato .formulario-contato h3 {
+    margin-top: 15px !important;
+  }
+  .cabecalho-contato .fale-conosco .link-contato {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cabecalho-contato .contato {
+    border-right: 3px solid;
+  }
+}
+@media (min-width: 992px) {
+  .cabecalho-contato .telefones .curitiba h5, .cabecalho-contato .telefones .joinville h5 {
+    font-size: 24px !important;
+  }
+  .cabecalho-contato .telefones .curitiba p, .cabecalho-contato .telefones .joinville p {
+    font-size: 20px;
+  }
+  .cabecalho-contato .telefones .sao-paulo h5, .cabecalho-contato .telefones .porto-alegre h5 {
+    font-size: 24px !important;
+  }
+  .cabecalho-contato .telefones .sao-paulo p, .cabecalho-contato .telefones .porto-alegre p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .cabecalho-contato .text-contato {
+    margin-top: 20%;
+  }
+  .cabecalho-contato .text-contato h1 {
+    font-size: 100px;
+  }
+  .cabecalho-contato .formulario-contato {
+    margin-top: 30%;
+  }
+}
+@media (min-width: 1440px) {
+  .cabecalho-contato .formulario-contato {
+    margin-top: 30%;
+  }
+  .cabecalho-contato .text-contato {
+    margin-top: 20%;
+  }
+  .cabecalho-contato .text-contato h1 {
+    font-size: 110px;
+    text-transform: uppercase;
+  }
+}
+
+/*# sourceMappingURL=contato.css.map */

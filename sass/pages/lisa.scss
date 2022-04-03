@@ -1,0 +1,68 @@
+.funso-lisa{
+    background: url("../img/fundos/fundo-lisa.jpg") no-repeat;
+    padding: 4rem 0;
+    background-size: cover;
+    background-position: right;
+    h1{
+        color: #fff;
+        width: 293px;
+        font-size: 3rem;
+        margin: 0 auto;
+        font-weight: 400;
+    }
+    a{
+        background: #262647;
+        padding: 4px 17px;
+        margin: 0;
+        border-radius: 77px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 700;
+    }
+    a:first-child{
+        background: #7a7ca7;
+    }
+    .btn-lisa{
+        width: auto
+        320px;
+        margin: 0 auto;
+    }
+}
+.consultoria-lisa{
+    background: rgb( 54, 34, 72);
+    color: #fff;
+
+    .lisa-text-1{
+        width: 296px;
+        margin: 0 auto;
+    }
+    a{
+        width: 146px;
+        background: #cfd1d2;
+        padding: 4px 17px;
+        margin: 0;
+        border-radius: 77px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #232445;
+        font-weight: 700;
+    }
+    .circo-btn-lisa{
+        width: 300px;
+        margin: 0 auto;
+        background:#ffffff;
+        border-radius: 850px;
+        padding: 118px 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        p{
+            width: 150px;
+            margin: 0;
+            color: #232445;
+        }
+    }
+}
