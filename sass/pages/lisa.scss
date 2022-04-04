@@ -37,32 +37,149 @@
         width: 296px;
         margin: 0 auto;
     }
-    a{
-        width: 146px;
-        background: #cfd1d2;
-        padding: 4px 17px;
-        margin: 0;
-        border-radius: 77px;
-        text-decoration: none;
-        cursor: pointer;
-        color: #232445;
-        font-weight: 700;
+    .flex-wrap{
+        a{
+            width: 146px;
+            background: #cfd1d2;
+            padding: 4px 17px;
+            margin: 0;
+            border-radius: 77px;
+            text-decoration: none;
+            cursor: pointer;
+            color: #232445;
+            font-weight: 700;
+        }
     }
     .circo-btn-lisa{
         width: 300px;
         margin: 0 auto;
         background:#ffffff;
         border-radius: 850px;
-        padding: 118px 0;
+        padding: 120px 0;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        position: relative;
+        &::after{
+            content: "";
+            background: url("../img/icones/consultoria-lisa-icone.png") no-repeat;
+            position:absolute;
+            width: 100px;
+            height: 100px;
+            background-size: contain;
+            top: 0;
+            margin-top: 99px;
+        }
+        .box-desafia{
+            width: 150px;
+            height: 26px;
+        }
         p{
             width: 150px;
             margin: 0;
             color: #232445;
         }
+        .tecnologia:before{
+            content: "";
+            width: 152px;
+            background:#fff;
+            height: 147px;
+            position: absolute !important;
+            top: 0;
+            left: 50%;
+            margin-left: -76px;
+            margin-top: -121px;
+            border-radius: 161px 0 0 0;
+        }
+
+        .processos::after{
+            content: "";
+            width: 151px;
+            background:#cfd1d2;
+            height: 147px;
+            position: absolute !important;
+            top: 0;
+            left: 50%;
+            margin-left: -76px;
+            margin-top: -121px;
+            border-radius: 0 161px 0 0;
+        }
+        .tecnologia,.processos {
+            p{
+                top: 0;
+                margin-top: -55px;
+                z-index: 100;
+                color: #232445;
+                a{
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: #232445;
+                    font-weight: 700;
+                }
+            }
+
+        }
+
+        .pessoas::before{
+            content: "";
+            width: 152px;
+            background: #cfd1d2;
+            height: 146px;
+            position: absolute !important;
+            top: 0;
+            left: 50%;
+            margin-left: -76px;
+            margin-top: 0px;
+            border-radius: 0 0 0 164px;
+
+        }
+        .lgpd::after{
+            content: "";
+            width: 151px;
+            background:#fff;
+            height: 146px;
+            position: absolute !important;
+            top: 0;
+            left: 50%;
+            margin-left: -76px;
+            margin-top: 0px;
+            border-radius: 0 0 161px 0;
+        }
+        .pessoas,.lgpd{
+            p{
+                top: 0;
+                margin-top: 55px;
+                z-index: 100;
+                color: #232445;
+                a{
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: #232445;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    .box{
+        .box-lisa{
+            background:#804980;
+            width: 296px;
+            margin: 0 auto;
+            padding: 13px 12px;
+            border-radius: 21px;
+
+            p{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+.carroucel-lisa{
+    background: #232445;
+    color: #fff;
+    position: relative;
+    .numeros-lisa{
+
     }
 }

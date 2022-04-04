@@ -31,6 +31,14 @@ $().ready(function(){
             $('.abrir-menu').addClass('d-inline-block');
             
         });*/
+        $('.your-class').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows:false,
+            dots: true,
+            dotsClass:"numeros-lisa"
+        });
 
 });
 // função acima serve para o menu mobile 

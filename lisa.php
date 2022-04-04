@@ -54,38 +54,83 @@
             <div class="col-12 text-center">
                 <h3>O LISA® desafia:  </h3>
             </div>
-            <div class="circo-btn-lisa">
-                <div class="">
-                    <p class="text-center">TECNOLOGIA</p>
+            <div class="circo-btn-lisa position-relative">
+                <div class="position-relative box-desafia tecnologia">
+                    <p class="text-center position-absolute">
+                        <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">TECNOLOGIA</a>
+                    </p>
                 </div>
-                <div class="">
-                    <p class="text-center">PROCESSOS</p>
+                <div class="position-relative box-desafia processos">
+                    <p class="text-center position-absolute">
+                        <a class="" data-bs-toggle="collapse" href="#process" role="button" aria-expanded="false" aria-controls="process">PROCESSOS</a>
+                    </p>
                 </div>
-                <div class="">
-                    <p class="text-center">PESSOAS</p>
+                <div class="position-relative box-desafia pessoas">
+                    <p class="text-center position-absolute">
+                        <a class="" data-bs-toggle="collapse" href="#pessoas" role="button" aria-expanded="false" aria-controls="pessoas">PESSOAS</a>
+                    </p>
                 </div>
-                <div class="">
-                    <p class="text-center">LGPD</p>
+                <div class="position-relative box-desafia lgpd">
+                    <p class="text-center position-absolute">
+                        <a class="" data-bs-toggle="collapse" href="#lgpd" role="button" aria-expanded="false" aria-controls="lgpd">LGPD</a>
+                    </p>
                 </div>
             </div>
-            <div class="box">
+            <div  class="collapse box text-center mt-4" id="collapseExample">
                 <p>TECNOLOGIA</p>
-                <div class="">
+                <div class="box-lisa">
                     <p>Análise dos servidores, banco de dados, aplicações Web, ativos de rede, quebras de senhas, scan de vulnerabilidade interno e externo, pentest. </p>
                 </div>
             </div>
-            <div class="col-12">
+            <div  class="collapse box text-center mt-4" id="process">
+                <p>PROCESSOS</p>
+                <div class="box-lisa">
+                    <p>Análise dos servidores, banco de dados, aplicações Web, ativos de rede, quebras de senhas, scan de vulnerabilidade interno e externo, pentest. </p>
+                </div>
+            </div>
+            <div  class="collapse box text-center mt-4" id="pessoas">
+                <p>PESSOAS</p>
+                <div class="box-lisa">
+                    <p>Análise dos servidores, banco de dados, aplicações Web, ativos de rede, quebras de senhas, scan de vulnerabilidade interno e externo, pentest. </p>
+                </div>
+            </div>
+            <div  class="collapse box text-center mt-4" id="lgpd">
+                <p>LGPD</p>
+                <div class="box-lisa">
+                    <p>Análise dos servidores, banco de dados, aplicações Web, ativos de rede, quebras de senhas, scan de vulnerabilidade interno e externo, pentest. </p>
+                </div>
+            </div>
+            <!-- fim do container -->
+            <div class="col-12 text-center mt-4">
                 <p>Com a aplicação de uma série de frameworks de segurança, o LISA® executa uma avaliação de riscos e de exposição aprofundada que inclui e vai além das vulnerabilidades identificadas em um vulnerability assessment e dos resultados de um Pentest. </p>
             </div>
-            <div class="col-12">
-                <img src="" alt="">
+            <div class="col-12 text-center mt-2 mb-2">
+                <img class="img-fluid" src="img/icones/icone-tec-lisa.png" alt="">
             </div>
-            <div class="col-12">
+            <div class="col-12 text-center mt-4">
                 <p>O LISA® possibilita o mapeamento, a análise e a apresentação de soluções para todas as ameaças que podem afetar a operação, a lucratividade, a confiabilidade e a reputação da sua empresa no mercado, a partir do diagnóstico objetivo dos problemas existentes e da proposta de investimentos assertivos em curto, médio e longo prazo.   </p>
             </div>
         </div>
     </div>
-   
+   <div class="container-fluid carroucel-lisa">
+       <div class="row">
+           <div class="col-12 text-center">
+                <h2>O <strong> Levantamento de 
+                Informações Sobre 
+                o Ambiente </strong>inclui:</h2>
+           </div>
+           <div class="col-12 your-class">
+               <div class="">
+                   <h3>Planejamento </h3>
+                   <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+               </div>
+               <div class="">
+                   <h3>Planejamento </h3>
+                   <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+               </div>
+           </div>
+       </div>
+   </div>
 
 </main>
 
