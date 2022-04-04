@@ -625,7 +625,7 @@ main .cabecalho-contato .fale-conosco .link-contato a {
   background: #7a7ca7;
 }
 .funso-lisa .btn-lisa {
-  width: auto 320px;
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -647,6 +647,12 @@ main .cabecalho-contato .fale-conosco .link-contato a {
   cursor: pointer;
   color: #232445;
   font-weight: 700;
+}
+@media (min-width: 350px) {
+  .consultoria-lisa .btns-lisas {
+    width: 350px;
+    margin: 0 auto;
+  }
 }
 .consultoria-lisa .circo-btn-lisa {
   width: 300px;
@@ -766,6 +772,209 @@ main .cabecalho-contato .fale-conosco .link-contato a {
   background: #232445;
   color: #fff;
   position: relative;
+}
+.carroucel-lisa .slick-list {
+  order: 1;
+}
+.carroucel-lisa .box-carroucel-lisa {
+  margin-top: 41px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa {
+  order: 0;
+  width: 300px;
+  border-radius: 162px;
+  background: url(../img/icones/fundo-carroucel.png) no-repeat;
+  background-size: 265px;
+  background-position: 14px 16px;
+  height: 300px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li {
+  list-style: none;
+  width: 20px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li button {
+  background: #fff;
+  border: none;
+  background: none;
+  position: absolute;
+  left: 50%;
+  z-index: 150;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control00 {
+  top: 0;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control01 {
+  margin-top: 70px;
+  margin-left: 85px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control02 {
+  margin-left: 101px;
+  margin-top: 138px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control03 {
+  margin-left: 79px;
+  margin-top: 205px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control04 {
+  margin-left: 24px;
+  margin-top: 243px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control05 {
+  margin-left: -46px;
+  margin-top: 244px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control06 {
+  margin-left: -101px;
+  margin-top: 204px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control07 {
+  margin-left: -124px;
+  margin-top: 141px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control08 {
+  margin-left: -103px;
+  margin-top: 72px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa li #slick-slide-control09 {
+  margin-left: -51px;
+  margin-top: 29px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active button::before {
+  width: 71px;
+  height: 100px;
+  position: absolute;
+  background: url(../img/icones/fundo-numero.png) no-repeat;
+  background-size: contain;
+  transform: rotate(-37deg);
+  top: 0;
+  left: 50%;
+  margin-left: -33px;
+  z-index: -1;
+  margin-top: -30px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active button::after {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: 7px;
+  z-index: -1;
+  margin-top: -27px;
+  background: #fff;
+  border-radius: 50px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control00::before {
+  content: "";
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control00::after {
+  content: "";
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control01::before {
+  content: "";
+  transform: rotate(0deg);
+  margin-left: -40px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control01::after {
+  content: "";
+  margin-left: 22px;
+  margin-top: -12px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control02::before {
+  content: "";
+  transform: rotate(37deg);
+  margin-left: -40px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control02::after {
+  content: "";
+  margin-left: 30px;
+  margin-top: 9px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control03::before {
+  content: "";
+  transform: rotate(72deg);
+  margin-left: -43px;
+  margin-top: -36px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control03::after {
+  content: "";
+  margin-left: 17px;
+  margin-top: 31px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control04::before {
+  content: "";
+  transform: rotate(107deg);
+  margin-left: -43px;
+  margin-top: -38px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control04::after {
+  content: "";
+  margin-left: 4px;
+  margin-top: 39px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control05::before {
+  content: "";
+  transform: rotate(142deg);
+  margin-left: -39px;
+  margin-top: -44px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control05::after {
+  content: "";
+  margin-left: -20px;
+  margin-top: 37px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control06::before {
+  content: "";
+  transform: rotate(178deg);
+  margin-left: -36px;
+  margin-top: -44px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control06::after {
+  content: "";
+  margin-left: -38px;
+  margin-top: 24px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control07::before {
+  content: "";
+  transform: rotate(212deg);
+  margin-left: -33px;
+  margin-top: -44px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control07::after {
+  content: "";
+  margin-left: -42px;
+  margin-top: 8px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control08::before {
+  content: "";
+  transform: rotate(249deg);
+  margin-left: -30px;
+  margin-top: -40px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control08::after {
+  content: "";
+  margin-left: -40px;
+  margin-top: -14px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control09::before {
+  content: "";
+  transform: rotate(287deg);
+  margin-left: -30px;
+  margin-top: -35px;
+}
+.carroucel-lisa .box-carroucel-lisa .numeros-lisa .slick-active #slick-slide-control09::after {
+  content: "";
+  margin-left: -18px;
+  margin-top: -31px;
+}
+.carroucel-lisa .box-carroucel-lisa .box-lisa-carroucel div {
+  width: 296px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

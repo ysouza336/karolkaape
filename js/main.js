@@ -31,7 +31,7 @@ $().ready(function(){
             $('.abrir-menu').addClass('d-inline-block');
             
         });*/
-        $('.your-class').slick({
+        $('.lisa-carroucel').slick({
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,

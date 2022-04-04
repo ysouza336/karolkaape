@@ -41,7 +41,7 @@
 
             <p>Desenvolvido com base em diversas metodologias reconhecidas e nas melhores práticas, o LISA® testa o seu ambiente frente à </p>
             </div>
-            <div class="col-12 text-center d-flex justify-content-around align-items-center flex-wrap mt-3">
+            <div class="col-12 btns-lisas text-center d-flex justify-content-around align-items-center flex-wrap mt-3">
                 <a href="" class="mb-3 ">TECNOLOGIA</a>
                 <a href="" class="mb-3 ">PESSOAS</a>
                 <a href="" class="">PROCESSOS</a>
@@ -112,21 +112,73 @@
             </div>
         </div>
     </div>
-   <div class="container-fluid carroucel-lisa">
+   <div class="container-fluid carroucel-lisa pt-5">
        <div class="row">
            <div class="col-12 text-center">
                 <h2>O <strong> Levantamento de 
                 Informações Sobre 
                 o Ambiente </strong>inclui:</h2>
            </div>
-           <div class="col-12 your-class">
-               <div class="">
-                   <h3>Planejamento </h3>
-                   <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+           <div class="col-12 lisa-carroucel d-flex flex-nowrap flex-column box-carroucel-lisa">
+               <div class="box-lisa-carroucel">
+                   <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
                </div>
-               <div class="">
-                   <h3>Planejamento </h3>
-                   <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
+               </div>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
+               </div>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
+               </div>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
+               </div>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
+               </div>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
+               </div>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
+               </div>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
+               </div>
+               <div class="box-lisa-carroucel">
+                    <div class="">
+                       <h3>Planejamento </h3>
+                       <p>Planejamento para organizar as equipes responsáveis pelas correções e os prazos para a execução das tarefas, facilitando o acompanhamento das medidas de adequação à Segurança da Informação; </p>
+                   </div>
                </div>
            </div>
        </div>
