@@ -8,39 +8,42 @@
   margin-bottom: 16%;
 }
 
-.facaparte .texto-item {
+.sobreposition {
+  background: url(../img/facaparte-meio.png) no-repeat;
+  background-size: contain;
+}
+.sobreposition .texto-item {
   position: relative;
-  bottom: 44%;
-  left: 30%;
-  border-radius: 100px;
-  width: 210px;
-  height: 210px;
-  background-color: rgba(100, 100, 123, 0.8);
+  border-radius: 130px;
+  height: 180px;
+  background-color: rgba(100, 100, 123, 0.6);
   display: flex;
   align-items: center;
+  margin-bottom: 18px;
+  right: 20px;
 }
-.facaparte .texto-item p {
-  font-size: 14px;
-  width: 150px;
-  margin-left: 39px;
+.sobreposition .texto-item p {
+  font-size: 11px;
+  width: 120px;
+  margin-left: 32px;
   margin-top: 14px;
 }
-.facaparte .texto-item p span {
+.sobreposition .texto-item p span {
   color: #fff;
 }
-.facaparte .imagem-centralizada img {
-  width: 200px;
-}
-.facaparte .banner-circulares {
-  background-image: url(../img/facaparte-meio.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+.sobreposition .banner-circulares {
   background-color: #efefef;
 }
-.facaparte .banner-circulares h6 {
+.sobreposition .banner-circulares h6 {
   color: #212145;
   margin-top: 12px;
   text-align: center;
+}
+.sobreposition .banner-circulares img {
+  margin-left: 25px;
+  width: 190px;
+  height: 180px;
+  margin-top: 4px;
 }
 
 .texto-facaparte {
@@ -66,6 +69,9 @@
 }
 
 @media (min-width: 768px) {
+  .facaparte .banner-circulares .faca-redessociais {
+    margin-bottom: 40px;
+  }
   .facaparte .banner-circulares h6 {
     font-size: 20px;
     width: 90%;

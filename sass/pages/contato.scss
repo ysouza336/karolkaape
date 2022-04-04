@@ -3,7 +3,7 @@ main .cabecalho-contato{
     background-size: cover;
     .formulario-contato{
         h3{
-            margin-top: 100px;
+            margin-top: 40px;
         }
         align-items: center;
         h1{
@@ -14,13 +14,13 @@ main .cabecalho-contato{
         }
     }
     .text-contato{
-        margin-top: 80px;
+        margin-top: 20px;
         font-size: 40px;
         text-transform: uppercase;
     }
     .formulario-contato form div input{
         border-radius: 30px;
-        color: #efefef;  
+        color: #000 !important;
     }
     .curitiba{
         text-align: center;
@@ -69,28 +69,19 @@ main .cabecalho-contato{
             a{
                 text-decoration: none;
                 color: white;
-
+                font-size: 14px;
             }
         }
-    }   
+        .text-dpo{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }  
+     
 }
 @media(min-width:768px){
     .cabecalho-contato{
-       /* .linha-redes::before{
-            content: "";
-            width: 50%;
-            float: left;
-            height: 200px;
-            color: #fff;
-            border-right: 2px solid;
-        }
-        .linha-redes{
-            display:flex;
-            padding:0;
-            align-items:flex-end;
-            flex-direction:column; 
-        }
-        teste da linha vertical*/
         .contato::after{
             display: none !important;
         }
@@ -115,14 +106,6 @@ main .cabecalho-contato{
                 margin-top:15px !important;
             }
         }
-        /*.telefones::before{
-            content: "";
-            width: 50%;
-            float: left;
-            height: 200px;
-            color: #fff;
-            border-right: 2px solid;
-        }  */
         .fale-conosco{
             .link-contato{
                 width: 50%;

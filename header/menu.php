@@ -48,11 +48,11 @@
                   <li class="sub-menu-item"><a href="#">Parceiros</a></li>
                 </ul>
             </li>
-            <li class="menu-principal-item"><a class="" href="#"><i class="fas fa-angle-right "></i>Faça Parte da Up</a></li>
+            <li class="menu-principal-item"><a class="" href="/.facaparte.php"><i class="fas fa-angle-right "></i>Faça Parte da Up</a></li>
             <li class="menu-principal-item"><a class="" href="#"><i class="fas fa-angle-right abrir-menu"></i><i class="fas fa-angle-down fechar-menu d-none"></i>Noticias</a></li>
             <li class="menu-principal-item"><a class="" data-bs-toggle="collapse" href="#contatos" role="button" aria-expanded="false" aria-controls="collapseExample" href="#"><i class="fas fa-angle-right"></i>Contatos</a>
                 <ul class="sub-menu collapse" id="contatos">
-                  <li class="sub-menu-item"><a href="#">Fale com a UP</a></li>
+                  <li class="sub-menu-item"><a href="./contato.php">Fale com a UP</a></li>
                   <li class="sub-menu-item"><a href="#">Fale com a DPO</a></li>
                 </ul>
             </li>
