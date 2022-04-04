@@ -26,7 +26,7 @@
             <div class="col-12 text-center lisa-text-1">
                 <p>Conhecer as vulnerabilidades do seu ambiente é o primeiro passo para desenvolver um plano de segurança eficaz e focar corretamente os investimentos. </p>
             </div>
-            <div class="col-12 mt-5">
+            <div class="col-12 mt-5 text-center">
                 <img class="img-fluid" src="img/icones/lisa-icone.png" alt="">
             </div>
             <div class="col-12 text-center mt-5">

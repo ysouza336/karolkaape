@@ -619,6 +619,10 @@ main .cabecalho-contato .fale-conosco .text-dpo {
   background: rgb(54, 34, 72);
   color: #fff;
 }
+.consultoria-lisa img {
+  width: 320px;
+  margin: 0 auto;
+}
 .consultoria-lisa .lisa-text-1 {
   width: 296px;
   margin: 0 auto;
