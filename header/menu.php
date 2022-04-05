@@ -20,7 +20,7 @@
             </li>
             <li class="menu-principal-item"><a class="" data-bs-toggle="collapse" href="#solucoes" role="button" aria-expanded="false" aria-controls="collapseExample" href="#"><i class="fas fa-angle-right "></i>Soluções</a>
               <ul  class="sub-menu collapse" id="solucoes">
-                <li class="sub-menu-item"><a href="#">LISA</a></li>
+                <li class="sub-menu-item"><a href="./lisa.php">LISA</a></li>
                 <li class="sub-menu-item"><a href="#">SOC</a></li>
                 <li class="sub-menu-item"><a href="#">MSSP NG</a></li>
                 <li class="sub-menu-item"><a href="#">.RAR</a></li>
