@@ -7,7 +7,7 @@
         <div class="row facaparte">
             <div class="col-12 facaparte-item">
                 <h1><strong>Faça Parte</strong> da Up</h1>
-                <div class="d-none d-lg-flex faca-redessociais">
+                <div class="d-none faca-redessociais">
                     <ul>
                         <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
                         <li><a href=""><i class="fab fa-linkedin"></i></a></li>

@@ -20,7 +20,7 @@
             </li>
             <li class="menu-principal-item"><a class="" data-bs-toggle="collapse" href="#solucoes" role="button" aria-expanded="false" aria-controls="collapseExample" href="#"><i class="fas fa-angle-right "></i>Soluções</a>
               <ul  class="sub-menu collapse" id="solucoes">
-                <li class="sub-menu-item"><a href="./lisa.php">LISA</a></li>
+                <li class="sub-menu-item"><a href="./lisa.php">LISA®</a></li>
                 <li class="sub-menu-item"><a href="#">SOC</a></li>
                 <li class="sub-menu-item"><a href="#">MSSP NG</a></li>
                 <li class="sub-menu-item"><a href="#">.RAR</a></li>
@@ -48,7 +48,7 @@
                   <li class="sub-menu-item"><a href="#">Parceiros</a></li>
                 </ul>
             </li>
-            <li class="menu-principal-item"><a class="" href="/facaparte.php"><i class="fas fa-angle-right "></i>Faça Parte da Up</a></li>
+            <li class="menu-principal-item"><a class="" href="./facaparte.php"><i class="fas fa-angle-right "></i>Faça Parte da Up</a></li>
             <li class="menu-principal-item"><a class="" href="#"><i class="fas fa-angle-right abrir-menu"></i><i class="fas fa-angle-down fechar-menu d-none"></i>Noticias</a></li>
             <li class="menu-principal-item"><a class="" data-bs-toggle="collapse" href="#contatos" role="button" aria-expanded="false" aria-controls="collapseExample" href="#"><i class="fas fa-angle-right"></i>Contatos</a>
                 <ul class="sub-menu collapse" id="contatos">
@@ -56,6 +56,14 @@
                   <li class="sub-menu-item"><a href="#">Fale com a DPO</a></li>
                 </ul>
             </li>
+            <div class="d-lg-none mt-4">
+              <ul class=" d-flex redes-sociais-menu">
+                  <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                  <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
           </ul>
           <i class="fas fa-search text-white"></i>
           <!-- Icone para fazer a pesquisa -->
@@ -63,5 +71,6 @@
             <input type="search" name="busca" class="busca fas fa-search text-white" placeholder="Buscar...">
           </div>
       </nav>
+     
   </div>
 </header>

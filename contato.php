@@ -56,7 +56,7 @@
                 </form>
             </div>
             <div class="col-12 text-white d-flex justify-content-center">
-                <h4 class="text-uppercase">Contatos</h4>
+                <h4 class="text-uppercase mt-md-4">Contatos</h4>
             </div>
             <div class="col-12 col-md-6 text-center text-white contato align-self-md-center">  
                 <p class="mb-0">E-MAIL</p>

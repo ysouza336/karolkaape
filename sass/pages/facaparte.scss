@@ -5,16 +5,15 @@
     h1{
         text-transform: uppercase;
         margin-top: 13%;
-        margin-bottom: 16%;
+        margin-bottom: 34%;
     }
 }
 .sobreposition{
-        background: url(../img/facaparte-meio.png) no-repeat;
-        background-size: contain;
+        background: #efefef;
     .texto-item{
         position: relative;
         border-radius: 130px;
-        height: 180px;
+        height: 200px;
         background-color: rgba(100, 100, 123,0.6);
         display: flex;
         align-items: center;
@@ -40,7 +39,7 @@
         img{
             margin-left: 25px;
             width: 190px;
-            height: 180px;
+            height: 200px;
             margin-top: 4px;
         }
     }
@@ -85,19 +84,28 @@
                 }
             }
         }
+       
+    }
+    .sobreposition{
         .texto-item{
             position: relative;
             bottom: 43%;
-            left: 41%;
             border-radius: 170px;
-            width: 340px;
-            height: 340px;
+            width: 290px;
+            height: 270px;
             background-color: rgba(100,100,123,0.8);   
             p{
-                font-size: 21px;
-                width: 240px;   
-                margin-left: 59px;
-                margin-top: 14px;
+                font-size: 18px;
+                width: 290px;   
+                margin-left: 26px;
+                margin-top: 20px;
+            }
+        }
+        .banner-circulares{
+            img{
+                margin-left: 125px;
+                width: 290px;
+                height: 270px;
             }
         }
     }
@@ -110,29 +118,31 @@
     }
 }
 @media(min-width:992px){
-    .facaparte{
+    .sobreposition{
+        h6{
+            font-size: 23px;
+        }
         .texto-item{
-            bottom: 46%;
-            left: 41%;
-            border-radius: 210px;
-            width: 440px;
-            height: 440px;
+            position: relative;
+            bottom: 43%;
+            border-radius: 170px;
+            width: 350px;
+            height: 350px;
+            background-color: rgba(100,100,123,0.8);   
             p{
-                font-size: 28px;
-                width: 350px;
-                margin-left: 59px;
-                margin-top: 14px;
+                font-size: 18px;
+                width: 290px;   
+                margin-left: 26px;
+                margin-top: 20px;
             }
         }
         .banner-circulares{
-            .imagem-centralizada{
-                img{
-                    margin-left: 50px;
-                    margin-top: 30px;
-                    width: 440px;
-                }
+            img{
+                margin-left: 156px;
+                width: 350px;
+                height: 350px;
             }
-        } 
+        }
     }
     .texto-facaparte{
         p{
@@ -164,34 +174,29 @@
     }
 }
 @media(min-width:1440px){
-    .facaparte{
-        h1{
-            font-size: 90px;
-        }
-        .banner-circulares{
-            h6{
-                margin-top: 106px;
-                font-size: 40px;
-            }
-            .imagem-centralizada{
-                img{
-                    margin-left: 160px;
-                    margin-top: 30px;
-                    width: 600px;
-                }
-            }
+    .sobreposition{
+        h6{
+            font-size: 33px;
         }
         .texto-item{
+            position: relative;
             bottom: 43%;
-            left: 42%;
-            border-radius: 300px;
-            width: 600px;
-            height: 600px;
+            border-radius: 220px;
+            width: 450px;
+            height: 460px;
+            background-color: rgba(100,100,123,0.8);   
             p{
-                font-size: 37px;
-                width: 410px;
-                margin-left: 114px;
-                margin-top: 14px;
+                font-size: 25px;
+                width: 290px;   
+                margin-left: 76px;
+                margin-top: 20px;
+            }
+        }
+        .banner-circulares{
+            img{
+                margin-left: 290px;
+                width: 450px;
+                height: 460px;
             }
         }
     }
