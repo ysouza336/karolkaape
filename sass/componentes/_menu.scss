@@ -2,119 +2,53 @@
     color: #fff !important;
 }
 .cabecalho{
-    .d-lg-none{
-        .redes-sociais-menu{
-            list-style: none;
-            li{
-                padding: 5px;
-                font-size: 21px;
-                a{
-                    color: #fff !important;
-                    padding: 5px;
+    div{
+        nav{
+            i{
+                padding: 10px 0;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                li{
+                    margin-right: 12px;
                 }
             }
-            
         }
     }
-    .busca{
-        padding: 5px;
-        border: none;
-        width: 5px;
-        -webkit-transition: all 0.5s linear;
-        transition: all 0.5s linear;
+    .open{
+        right: 0;
+        transition:all .5s;
+        overflow: hidden;
     }
-    .busca:focus{
-        width: 200px;
-        border-bottom: solid 1px #ddd;
-        outline: none; 
-    } 
+    .fechar{
+        z-index:112;
+        font-size: large;
+    }
         
 }
 .menu-principal{
     list-style: none;
-    background-color: #262647;
     padding: 0;
-    .menu-principal-item{ 
-        i{
-            margin-left: 12px;
-            color:#8a4d93;
-            margin-right: 5px; 
-        }
-        a{
-            text-decoration: none;
-            color: white !important;
-            margin-left: 8px;
-            
-        }
-    }
-    .sub-menu{
-        padding: 0;
-        background-color: #7a7ca7;
-        li{
-            list-style: none;
-            margin-bottom: 5px;
-            text-align: center;
-            a{
-                text-decoration: none !important;
-                color: white;
-                margin: 0 !important;
-                font-size: 16px;
-            }
-        }
-        li:hover{
-            background-color: #bebfd4;
-        }
-        li::after{
-            content: '';
-            width: 200px;
-            height: 2px;
-            background: #efefef;
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-        }
-    } 
-} 
-.menu-principal .menu-principal-item{
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
-@media (max-width: 768px){
-    .cabecalho{
-        background-color: #262647;
-        nav{
-            i{
-                font-size: 26px;
-            }
-            img{
-                width: 190px;
-            }
-            .open{
-                right: 0;
-                transition:all .5s;
-                overflow: hidden;
-            }
-            .fechar{
-                z-index:112;
-            }
-        }
-    }
+@media (max-width: 767px){
     .menu-principal{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #262647;
+        background: #5aade4;
         right: -114%;
-        transition:all .5s;
+        transition:all 0.5s;
         z-index: 100;
         padding-top: 61px;
         overflow: hidden;
-        top: 62px;
+        top: 0%;
         li{
             list-style: none;
             font-size: 20px;
             font-weight: 400;
-            margin-bottom: 16px;
+            margin-bottom: 13px;
             a{
                 color: #fff;
             }
@@ -122,70 +56,26 @@
    
     }
 }
+@media(min-width:768px){
+   .cabecalho{
+    i{
+        display: none;
+    }
+    ul{
+        flex-direction: row!important;
+        padding: 12px;
+        margin: 0;
+    }
+   }
+}
 @media(min-width:992px){
-    .menu-principal{
-        display: flex;
-        background: none !important;
-        .menu-principal-item{
-            i{
-                display: none; //icones flechas do mobile
-            }
-            a{
-                margin-left: 9px !important;
-                font-size: 19px;
-            }
-            .sub-menu{
-                height: 98%;
-            }
-        }
-    }
-    .cabecalho{
-        background-color: #262647;
-        //background: url(../img/menu-topo.png)no-repeat;
-        //background-size: cover;
-        img{
-            width: 27%;
-        }
-        .abrir,.fechar{
-            display: none;
-        }
-        .pesquisar{
-            margin-bottom: 15px;
-            margin-left: 8px;
-        }
-    }
+   
+    
 }
 @media(min-width:1200px){
-    .menu-principal{
-        margin-right: 30px;
-        .menu-principal-item{
-            a{
-                font-size: 20px;
-                margin-right: 10px;
-            }
-        }
-    }
-    .cabecalho{
-        img{
-            width: 25%;
-        }
-    }
+    
 }
 @media(min-width:1440px){
-    .menu-principal{
-        align-items: center;
-        li{
-            font-size: 26px;
-            a{
-                padding-right: 15px;
-            }
-        }
-    }
-    .cabecalho{
-        img{
-            width: 24%;
-        }
-    }
+    
 }
-
 

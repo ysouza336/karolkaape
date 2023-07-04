@@ -15,30 +15,5 @@ $().ready(function(){
             $('.fechar').addClass('d-none');
             $('body').removeClass('overflow-hidden');
         });
-    //sub-menus
-      /*  $('.abrir-menu').click(function(){
-            $(this).addClass('d-none');
-            $('.fechar-menu').removeClass('d-none');
-            $('.abrir-menu').addClass('fas fa-angle-down').show('slow');
-            $('.fechar-menu').addClass('d-inline-block');
-
-            
-        });
-        $('.fechar-menu').click(function(){
-            $(this).addClass('d-none');
-            $('.abrir-menu').removeClass('d-none');
-            $('.fechar-menu').addClass('fas fa-angle-right').show('slow');
-            $('.abrir-menu').addClass('d-inline-block');
-            
-        });*/
-        $('.lisa-carroucel').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows:false,
-            dots: true,
-            dotsClass:"numeros-lisa"
-        });
-
 });
 // função acima serve para o menu mobile 
