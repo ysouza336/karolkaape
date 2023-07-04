@@ -3,7 +3,7 @@
       <nav class="col-12 d-flex align-items-center justify-content-between">
           <!-- icones para menu mobile -->
           <i class="fas fa-bars abrir "></i>
-          <i class="fas d-none fechar  fa-times position-fixed mt-5"></i>
+          <i class="fas d-none fechar text-white fa-times position-fixed mt-5"></i>
           <img class="img-fluid" src="#" alt="">  
           <ul class="menu-principal">
             <li><a href="#">Home</a></li>
